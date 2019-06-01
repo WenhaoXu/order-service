@@ -42,5 +42,10 @@ springfox:
 feign:
   hystrix:
     enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
-#TODO: config actuator endpoints to expose
+
